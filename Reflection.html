@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From wireframe to page</title>
+
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Summer 21´</h1>
+    </header>
+
+    <div class="preview">
+      <div class="column">
+          <source media="(max-width: 600px)" srcset="Photos/image1.JPG">
+          <img src="Photos/image1.JPG" alt="image1" style="width:100%" style="height: 5%">
+      </div>
+      <div class="column">
+          <source media="(min-width:650px)" srcset="Photos/image2.JPG">
+          <img src="Photos/image2.JPG" alt="image2" style="width:100%" style="height: 5%">
+      </div>
+      <div class="column">
+          <source media="(min-width:650px)" srcset="Photos/image3.JPG">
+          <img src="Photos/image3.jpg" alt="image3" style="width:100%" style="height: 5%">
+      </div>
+      <div class="column">
+          <source media="(min-width:650px)" srcset="Photos/image4.JPG">
+          <img src="Photos/image4.JPG" alt="image4" style="width:100%" style="height: 5%">
+      </div>
+      <div class="column">
+          <source media="(min-width:650px)" srcset="Photos/image5.JPG">
+          <img src="Photos/image5.jpg" alt="image5" style="width:100%" style="height: 5%">
+      </div>
+      <div class="column">
+          <source media="(min-width:650px)" srcset="Photos/image6.JPG">
+          <img src="Photos/image6.JPG" alt="image6" style="width:100%" style="height: 5%">
+      </div><hr>
+  </div>
+
+  <a href="Photos/wireframe.JPEG"  target="blank">
+    <button class="button">Click here, to see our wireframe</button></a>
+
+  <a href="Index.html" target="blank">
+    <button class="button">Home Page</button></a>
+
+    <content>
+
+      <div class="reflection">
+        <p>Our goal with this page was to create a very clean and simple looking page that gave the user a “feeling” of summer, however this is not always easy. Here is some parts of the process and our thoughts around it. <br><br>
+          When creating the wireframes, we first decided that we wanted a small preview of the photos on the top of the page under the header. Beneath the preview we wanted six sections that would contain the images as well text describing the picture. Creating the sections was the hardest part of the website. Common problem we ran into was getting the sections to be even and getting the images to fit inside the sections so that every image would be aligned with each other. Sizing the images to the correct size before using them was also a challenge. Some of the pictures had different dimensions from each other so we had to get them all to the same width and height, we did this on our phones before putting them into the html-file. <br><br>
+          The styling and positioning of the text in each section was also quite difficult. The main issues we had was that the text tended to get “kicked” out of the div-box so working around that took some time. In addition to this when we put the text inside the div-box it came under the picture something we expected, but when trying to use the “float-right” tag we noticed that the text was unresponsive. We fixed this by using the “margin-right” tag. <br><br>
+          When using the “@media only” tag it was quite difficult to style the different parts of the website so that they would reach the end goal that we had set. Especially the photos turned out to be quite challenging to style, sometimes they wouldn’t respond to the CSS-attributes we applied on them, and it was a struggle to position them as well. Then we used the “img-set” element which helped us design and change the size of the images that we used. We had already given the size measurements for the laptop page, and with “imgset” we could just implement the images and they would fit in the mobile page. As the obligue asked, we also changed the header and the paragraphs but that was a very easy job.</p>
+    </div>
+
+    </content>
+    
+</body>
+</html>
